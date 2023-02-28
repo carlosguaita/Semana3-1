@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
                 printf("Radiador                %.2f                %.2f             %.2f\n", nume, prce, tote);
             }
             subtotal = tota + totb + totc + totc + tote;
-            printf("El subtotal sin descuento es: %f\n",subtotal);
+            printf("El subtotal sin descuento es: %.2f\n",subtotal);
             if (subtotal > 100 && subtotal <= 500)
             {
                 printf("Se aplica un decuento del 5 porciento\n");
